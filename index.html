@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		<title>凡客</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			.top {
+				width: 100%;
+				height: 36px;
+				background-color: #F7F7F7;
+				border-bottom: 1px solid darkgray;
+			}
+			
+			.top .top1 {
+				width: 500px;
+				height: 35px;
+				/*background-color: red;*/
+				margin-left: 800px;
+			}
+			
+			.top .top1 ul li {
+				font-family: "微软雅黑";
+				float: left;
+				margin-right: 8px;
+				margin-top: 8px;
+				font-size: 13px;
+				color: #808080;
+			}
+			/*.sousuobufen{
+				width: 600px;
+				height: 70px;
+				margin-left: 685px;
+				background-color: red;
+			}*/
+			
+			.sousuo {
+				width: 600px;
+				height: 70px;
+				margin-left: 685px;
+				/*background-color: red;*/
+			}
+			
+			.sousuo .kuang {
+				width: 600px;
+				height: 35px;
+				/*background-color: yellowgreen;*/
+				margin-top: 30px;
+				margin-left: 23px;
+			}
+			
+			.sousuo .kuang .sousuo1 #sousuo1-1 {
+				width: 295px;
+				height: 30px;
+			}
+			
+			.sousuo .kuang .sousuo1 {
+				width: 350px;
+				height: 33px;
+				border: 1px solid darkgray;
+				float: left;
+				margin-left: 35px;
+			}
+			
+			.sousuo .kuang #zi {
+				width: 50px;
+				height: 33px;
+				background-color: #B81B22;
+				text-align: center;
+				color: white;
+				float: right;
+				display: block;
+				line-height: 30px;
+			}
+			
+			.sousuo .kuang .gouwuche {
+				width: 110px;
+				height: 35px;
+				background: url(img/lcq-fk-005.png);
+				color: white;
+				float: right;
+				text-align: center;
+				line-height: 25px;
+				text-indent: 30px;
+				margin-right: 50px;
+			}
+			
+			.sousuo .kuang .gouwuche:hover {
+				background: url(img/lcq-fk-006.png);
+				color: red;
+			}
+			
+			.remensousuo {
+				width: 600px;
+				height: 30px;
+				/*background-color: blue;*/
+				margin-top: -29px;
+				margin-left: 755px;
+			}
+			
+			.remensousuo .remen {
+				font-family: "微软雅黑";
+				float: left;
+				margin-right: 8px;
+				margin-top: 8px;
+				font-size: 13px;
+				color: #808080;
+			}
+			
+			.nav {
+				width: 1210px;
+				height: 46px;
+				/*background-color: yellow;*/
+				margin: auto;
+			}
+			
+			.nav .logo {
+				width: 185px;
+				height: 46px;
+				float: left;
+			}
+			
+			.nav .nav1 {
+				width: 100px;
+				height: 21px;
+				float: left;
+				font-family: "微软雅黑";
+				color: darkgray;
+				margin-top: 25px;
+				text-align: center;
+				border-right: 1px solid #A9A9A9;
+			}
+			
+			.nav .nav1-10 {
+				border: 0;
+			}
+			
+			.nav .nav1:hover {
+				color: red;
+				border-bottom: 5px solid #B71A21;
+				position: relative;
+			}
+			
+			.nav .nav1-1:hover {
+				border-bottom: none;
+			}
+			
+			.nav .nav1 .nav2 {
+				width: 100px;
+				height: 30px;
+				font-family: "微软雅黑";
+				color: black;
+				text-align: center;
+				border-right: 1px solid darkgrey;
+				border-left: 1px solid darkgrey;
+				line-height: 35px;
+				background-color: white;
+				margin-left: -1px;
+				display: none;
+				opacity: 0.5;
+				
+			}
+			
+			.nav .nav1 .nav2:hover {
+				/*background-color: brown;*/
+				color: crimson;
+			}
+			
+			.nav .nav1 .nav2-10 {
+				border-bottom: 1px solid darkgray;
+			}
+			
+			.nav .nav1:hover .nav2 {
+				display: block;
+			}
+			
+			.banner {
+				width: 1200px;
+				height: 535px;
+				margin: 0 auto;
+				margin-top: 30px;
+				
+			}
+			.nav .nav1 ul{
+			 	position: absolute;
+			 
+			 }
+			 .chongzhi{
+			 	width: 1200px;
+			 	height: 40px;
+			 	margin: 0 auto;
+			 	margin-top: 30px;
+			 	margin-bottom: 30px;
+			 }
+			 .xinpin{
+			 	width: 1200px;
+			 	height: 100px;
+			 	text-align: center;
+			 	margin: 0 auto;
+			 	line-height: 100px;
+			 	font-size: 20px;
+			 	color: darkgray;
+			 }
+			 .yundongfu{
+			 	width: 1200px;
+			 	height: 510px;
+			 	margin: 0 auto;
+			 }
+			 .yundongfu .yundongfu1{
+			 	width: 590px;
+			 	height: 510px;
+			 	/*background-color: yellow;*/	
+			 	float: left;				
+			 }
+			 .yundongfu .yundongfu1 .yundong1wenzi{
+			 	width: 568px;
+			 	height: 69px;
+			 	border-bottom: 1px solid darkgray;
+			 	border-left: 1px solid darkgray;
+			 	border-right: 1px solid darkgray;
+			 	margin-top: -4px;
+			 	line-height: 69px;
+	            padding-left: 20px;
+			 }
+			 .yundongfu .kaishan{
+			 	width: 290px;
+			 	height: 510px;
+			 	float: left;
+			 	margin-left: 17px;
+			 }
+			 .yundongfu .kaishan .kaishan1{
+			 	width: 290px;
+			 	height: 250px;
+			 }
+			 .kaishan .kaishan1 .jiage{
+			 	width: 278px;
+			 	height: 79px;
+			 	margin-top: -4px;
+			 	border-bottom: 1px solid darkgray;
+			 	border-left: 1px solid darkgray;
+			 	border-right: 1px solid darkgray;
+			 	line-height: 90px;
+			 	padding-left: 10px;
+			 }
+			 .kaishan .kaishan2{
+			 	width: 290px;
+			 	height: 250px;
+			 	margin-top: 15px;
+			 }
+			 .kaishan .kaishan2 .jiage{
+			 	width: 278px;
+			 	height: 79px;
+			 	margin-top: -14px;
+			 	border-bottom: 1px solid darkgray;
+			 	border-left: 1px solid darkgray;
+			 	border-right: 1px solid darkgray;
+			 	line-height: 90px;
+			 	padding-left: 10px;
+			 }
+			 .yundongfu .weiyi{
+			 	width: 286px;
+			 	height: 510px;
+			 	float: left;
+			 	margin-left: 17px;
+			 }
+			 .yundongfu .weiyi .jiage{
+
+			 	width: 274px;
+			 	height: 69px;
+			 	line-height: 65px;
+			 	border-bottom: 1px solid darkgray;
+			 	border-left: 1px solid darkgray;
+			 	border-right: 1px solid darkgray;
+			 	margin-top: -4px;
+			 	padding-left: 10px;
+			 }
+			 .yundong2,.yundong3,.yundong4,.yundong5,.yundong6,.yundong7,.yundong8{
+			 	margin-top: 20px;
+			 }
+		     .banner #you{
+		     	width: 100px;
+		     	height: 100px;
+		     	border-radius: 50%;
+		     	/*background-color: white;*/
+		     	color: black;
+		     	margin-top: -300px;
+		     	margin-left: 1153px;
+		     	float: right;
+		     	position: absolute;
+		     	outline: none;
+		     	font-size: 80px;
+		     }
+		     .banner #zuo{
+		     	width: 100px;
+		     	height: 100px;
+		     	border-radius: 50%;
+		     	/*background-color: white;*/
+		     	color: black;
+		     	margin-top: -300px;
+		     	margin-left: -10px;
+		     	float: right;
+		     	position: absolute;
+		     	outline: none;
+		     	font-size: 80px;
+		     }
+		     .chaozhi{
+		     	width: 1200px;
+		     	height: 40px;
+		     	margin:0 auto;
+		     	margin-top: 20px;
+		     }
+		     .liangzhe{
+		     	width: 1200px;
+		     	height: 40px;
+		     	margin:0 auto;
+		     	margin-top: 20px;
+		     }
+		     .sanzhe{
+		     	width: 1200px;
+		     	height: 40px;
+		     	margin:0 auto;
+		     	margin-top: 20px;
+		     }
+		     .zuihou{
+		     	width: 1200px;
+		     	height: 510px;
+		     	margin: 0 auto;
+		     	margin-top: 20px;
+		     }
+		     .zuihou .tu1{
+		     	width: 286px;
+		     	height: 510px;
+		     	float: left;
+		     	border: 1px solid darkgray;
+		     	margin-right:12px ;
+		     }
+		     .zuihou .zuihouzi{
+		     margin-top: 20px;
+		     padding-left: 20px;
+		     }
+		     .dibu{
+		     	width: 1198px;
+		     	height: 284px;
+		     	margin: 0 auto;
+		     	margin-top: 50px;
+		     	margin-bottom: 20px;
+		     	border:1px solid darkgray;
+		     	/*background-color: red;*/
+		     }
+		     .dibu1,.dibu2,.dibu3{
+		     	width: 372px;
+		     	height: 140px;
+		     	float: left;
+		     	border-right: 1px solid darkgray;
+		     	margin-top: 45px;
+		     	margin-left: 40px;
+		     }
+		     .dibu3-1{
+		     	border: none;
+		     }
+		     .dibu .dibu1 #tu1{
+		     	margin-left: 150px;
+		     	margin-top: 10px;
+		     }
+		     .dibu .dibu1 #wenzi1{
+		     	width: 157px;
+		     	height: 33px;
+		     	background-color: #BC1C1C;
+		     	color: white;
+		     	text-align: center;
+		     	margin-left: 95px;
+		     	margin-top: 20px;
+		     	line-height: 33px;
+		     }
+		     .dibu .dibu2 #tu2{
+		     	margin-left: 150px;
+		     	margin-top: 10px;
+		     }
+		     .dibu .dibu2 #wenzi2{
+		     	margin-left: -25px;
+		     	margin-top: 20px;
+		     	color: darkgrey;
+		     	text-align: center;
+		     	
+		     }
+		     .dibu .dibu3 {
+		     	background: url(img/lcq-fk-059.jpg)no-repeat center;
+		     	background-size: 100px 100px;
+		     	margin: 15px auto;
+		     }
+		     .dibu .dibu3 #wenzi3{
+		     	color: darkgrey;
+		     	text-align: center;
+		     	margin-top: 125px;
+		     	margin-left: 5px;
+		     }
+		     .dibu .bangzhu{
+		     	width: 1121px;
+		     	height: 41px;
+		     	margin: 0 auto;
+		     	margin-top: 220px;
+		     	/*background-color: yellow;*/
+		     }
+		     .dibu .bangzhu .bangzhu1,.bangzhu2,.bangzhu3,.bangzhu4,.bangzhu5,.bangzhu6
+		     {
+		     	width: 186px;
+		     	height: 26px;
+		     	float: left;
+		     	/*background-color: royalblue;*/
+		     	margin-top: 8px;
+		     	border-right: 1px solid darkgray;
+		     	text-align: center;
+		     	color: darkgrey;
+		     	font-size: 15px;
+		     	line-height: 26px;
+		     }
+		     .dibu .bangzhu .bangzhu6-1{
+		     	border: none;
+		     }
+		     .xiaozi{
+		     	width: 100%;
+		     	height: 200px;
+		     	text-align: center;
+		     	font-size: 8px;
+		     	margin-left: 10px;
+		     	margin-top: 20px;
+		     	color: darkgray;
+		     }
+		     .zuihoutu{
+		     	width: 780px;
+		     	height: 50px;
+		     	margin: 0 auto;
+		     	margin-top: -135px;
+		     	margin-bottom: 20px;
+		     	margin-left:340px ;
+		     }
+		</style>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="top1">
+				<ul>
+					<li class="top1-1">您好，欢迎光临凡客诚品！</li>
+					<a href="#">
+						<li class="top1-2">登录</li>
+					</a>
+					<li class="top1-3">丨</li>
+					<a href="#">
+						<li class="top1-4">注册</li>
+					</a>
+					<a href="#">
+						<li class="top1-5">我的订单</li>
+					</a>
+					<a href="#">
+						<li class="top1-6"><img src="img/lcq-fk-001.png" /></li>
+					</a>
+					<a href="#">
+						<li class="top1-7">网站公告</li>
+					</a>
+					<a href="#">
+						<li class="top1-8"><img src="img/lcq-fk-002.jpg" /></li>
+					</a>
+					<a href="#">
+						<li class="top1-8"><img src="img/lcq-fk-003.jpg" /></li>
+					</a>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="sousuo">
+			<div class="kuang">
+				<div class="sousuo1">
+					<input type="text" id="sousuo1-1" placeholder="搜”羊毛大衣“，体验与众不同" />
+					<span id="zi">
+					搜索
+				</span>
+				</div>
+				<div class="gouwuche">
+					购物车(0)
+				</div>
+			</div>
+		</div>
+		<div class="remensousuo">
+			<ul>
+				<li class="remen">热门搜索：</li>
+				<li class="remen">免烫衬衫</li>
+				<li class="remen">免烫衬衫</li>
+				<li class="remen">羽绒服</li>
+				<li class="remen">羊毛大衣</li>
+				<li class="remen">智能温控</li>
+				<li class="remen">户外鞋</li>
+				<li class="remen">休闲裤</li>
+				<li class="remen">跑步T恤</li>
+			</ul>
+		</div>
+
+		<div class="nav">
+			<ul>
+				<li class="logo"><img src="img/lcq-fk-009.png" /></li>
+				<li class="nav1 nav1-1">首页</li>
+				<li class="nav1">衬衫
+					<ul>
+						<li class="nav2">免烫</li>
+						<li class="nav2">高支</li>
+						<li class="nav2">休闲</li>
+						<li class="nav2">法兰绒</li>
+						<li class="nav2">牛津纺</li>
+						<li class="nav2">青年布</li>
+						<li class="nav2">牛仔</li>
+						<li class="nav2">麻</li>
+						<li class="nav2">府绸</li>
+						<li class="nav2 nav2-10">私人订制</li>
+					</ul>
+
+				</li>
+				<li class="nav1">羽绒服
+					<ul>
+						<li class="nav2">男款</li>
+						<li class="nav2 nav2-10">女款</li>
+					</ul>
+
+				</li>
+				<li class="nav1">外套
+
+					<ul>
+						<li class="nav2">羽绒服</li>
+						<li class="nav2">大衣</li>
+						<li class="nav2">西服</li>
+						<li class="nav2">夹克</li>
+						<li class="nav2 nav2-10">卫衣</li>
+					</ul>
+
+				</li>
+				<li class="nav1">针织衫
+					<ul>
+						<li class="nav2">羊绒衫</li>
+						<li class="nav2">羊毛衫</li>
+						<li class="nav2">棉线衫</li>
+						<li class="nav2 nav2-10">空调衫</li>
+					</ul>
+
+				</li>
+				<li class="nav1">水柔绵
+					<ul>
+						<li class="nav2">拉链开衫</li>
+						<li class="nav2">长袖V领</li>
+						<li class="nav2">长袖圆领</li>
+						<li class="nav2 nav2-10">短袖</li>
+					</ul>
+
+				</li>
+				<li class="nav1">裤装
+					<ul>
+						<li class="nav2">商务裤</li>
+						<li class="nav2">休闲裤</li>
+						<li class="nav2">牛仔裤</li>
+						<li class="nav2">麻裤子</li>
+						<li class="nav2 nav2-10">针织裤</li>
+
+					</ul>
+
+				</li>
+				<li class="nav1">鞋
+					<ul>
+						<li class="nav2">复古鞋</li>
+						<li class="nav2">户外鞋</li>
+						<li class="nav2">帆布鞋</li>
+						<li class="nav2">皮鞋</li>
+						<li class="nav2 nav2-10">休闲鞋</li>
+
+					</ul>
+				</li>
+				<li class="nav1">袜品
+					<ul>
+						<li class="nav2">中袜</li>
+						<li class="nav2">连筒袜</li>
+						<li class="nav2 nav2-10">船袜</li>
+
+					</ul>
+
+				</li>
+				<li class="nav1 nav1-10">家具配饰
+
+					<ul>
+						<li class="nav2">床品三件套</li>
+						<li class="nav2">床品四件套</li>
+						<li class="nav2">羽绒被</li>
+						<li class="nav2">鹅绒被</li>
+						<li class="nav2">蚕丝被</li>
+						<li class="nav2">羽毛枕</li>
+						<li class="nav2">摇粒绒毯</li>
+						<li class="nav2">珊瑚绒毯</li>
+						<li class="nav2">珊瑚绒睡袍</li>
+						<li class="nav2 nav2-10">配饰</li>
+					</ul>
+
+				</li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img id="tu" src="img/1.jpg" />
+			<p id="you" onclick="jia()">></p>
+			<p id="zuo" onclick="jian()"><</p>
+		</div>
+		<div class="chongzhi">
+			<img src="img/lcq-fk-007.jpg"/>
+		</div>
+		<div class="xinpin">
+			新品推荐
+		</div>
+		<div class="yundongfu yundong1">
+			<div class="yundongfu1 yundong1">
+				<img src="img/lcq-fk-017.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-018.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-019.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-020.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+		<div class="yundongfu yundong2">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-021.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-022.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-023.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-024.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+		<div class="yundongfu yundong3">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-025.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-026.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-027.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-028.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+		<div class="yundongfu yundong4">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-029.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-030.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-031.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-032.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+    <div class="chaozhi">
+    	<img src="img/lcq-fk-033.jpg"/>
+    </div>
+    <div class="yundongfu yundong5">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-034.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-035.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-036.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-037.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+		<div class="liangzhe">
+			<img src="img/lcq-fk-042.jpg"/>
+		</div>
+		<div class="yundongfu yundong6">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-038.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-039.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-040.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-041.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		
+		</div>
+		<div class="sanzhe">
+			<img src="img/lcq-fk-043.jpg"/>
+		</div>
+		<div class="yundongfu yundong7">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-044.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-045.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-046.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-047.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		    
+		
+		</div>
+		<div class="yundongfu yundong8">
+			<div class="yundongfu1">
+				<img src="img/lcq-fk-049.jpg"/>
+				<div class="yundong1wenzi">
+					Beyond closet 运动服 COCO DOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;799 元
+				</div>
+			</div>
+            <div class="kaishan">
+            	<div class="kaishan1">
+            		<img src="img/lcq-fk-050.jpg"/>
+            		<div class="jiage">
+            			Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+            		</div>
+            	</div>
+                <div class="kaishan2">
+                	<img src="img/lcq-fk-051.jpg"/>
+                	<div class="jiage">
+                		Beyond closet 开衫&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            			&nbsp;&nbsp;&nbsp;499元
+                	</div>
+                </div>
+            </div>		
+		    <div class="weiyi">
+		    	<img src="img/lcq-fk-052.jpg"/>
+		    	<div class="jiage">
+		    		Beyond closet 卫衣&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		&nbsp;359元
+		    	</div>
+		    </div>
+		    
+		
+		</div>
+	    <div class="zuihou">
+	    	<div class="tu1"><img src="img/lcq-fk-053.jpg"/><p class="zuihouzi">休闲裤 成衣染充值购买 119.7元</p></div>
+	    	
+	    	<div class="tu1"><img src="img/lcq-fk-054.jpg"/><p class="zuihouzi">休闲裤成衣染充值购买 119.7元</p></div>
+	    	
+	    	<div class="tu1"><img src="img/lcq-fk-055.jpg"/><p class="zuihouzi">牛仔裤 弹力修身充值购买 98.7元</p></div>
+	    	
+	    	<div class="tu1"><img src="img/lcq-fk-056.jpg"/><p class="zuihouzi">休闲裤 全棉直筒充值购买 110.7元</p></div>
+	    	
+	    </div>
+	<div class="dibu">
+		<div class="dibu1">
+			<img src="img/lcq-fk-057.png" id="tu1"/>
+			<p id="wenzi1">7x9小时在线客服</p>
+		</div>
+		<div class="dibu2">
+			<img src="img/lcq-fk-058.png"id="tu2"/>
+			<p id="wenzi2">7天内退换货<br />购物满199元免运费</p>
+		</div>
+		<div class="dibu3 dibu3-1">
+			
+			<p id="wenzi3">扫描下载凡客客户端</p>
+		</div>
+		<div class="bangzhu">
+			<div class="bangzhu1">
+				关于凡客
+			</div>
+			<div class="bangzhu2">
+				新手指南
+			</div>
+			<div class="bangzhu3">
+				配送范围及时间
+			</div>
+			<div class="bangzhu4">
+				支付方式
+			</div>
+			<div class="bangzhu5">
+				售后服务
+			</div>
+			<div class="bangzhu6 bangzhu6-1">
+				帮助中心
+			</div>
+			
+		</div>
+	</div>
+	<hr width="100%" 2px  color="#000000" />
+	<div class="xiaozi">
+		Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</br>
+        凡客诚品（北京）科技有限公司
+	</div>
+	<div class="zuihoutu">
+		<img src="img/lcq-fk-061.png"/>
+		<img src="img/lcq-fk-062.png"/>
+		<img src="img/lcq-fk-063.png"/>
+		<img src="img/lcq-fk-064.png"/>
+		<img src="img/lcq-fk-065.png"/>
+		<img src="img/lcq-fk-066.png"/>
+	</div>
+	</body>
+    <script type="text/javascript">
+    	var tu=document.getElementById("tu");
+    	var x=1;
+    	function jia(){
+    		
+    		if (x==7) {
+    			x=1
+    		}
+    		else{
+    			x=x+1
+    		}
+    		tu.src="img/"+x+".jpg"
+    	}
+    	setInterval(jia,1000);
+    	function jian(){
+    		if (x==1) {
+    			x=7
+    		} else{
+    			x=x-1
+    		}
+    		tu.src="img/"+x+".jpg"
+    	}
+         
+    </script>
+</html>
